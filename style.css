@@ -43,8 +43,8 @@ h2{
     border-radius: 10px;
 }
 .card-img{
-    width: 20vw;
-    height: 35vh;
+    width: 19vw;
+    height: 30vh;
     object-fit: cover;
 }
 .card-title{
