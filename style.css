@@ -8,6 +8,9 @@ html
     font-family: 'Maven Pro', sans-serif;
     font-family: 'Playfair Display', serif;
 }
+body{
+    background-color: rgb(220, 186, 220);
+}
 .containers{
     margin: 0.5rem auto;
     display: flex;
