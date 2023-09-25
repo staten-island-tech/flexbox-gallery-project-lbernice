@@ -12,7 +12,7 @@ body{
     background-color: rgb(220, 186, 220);
 }
 .containers{
-    margin: 0.5rem auto;
+    margin: 1rem auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -23,6 +23,7 @@ body{
 h1{
     font-size: 3rem;
     text-align: center;
+    text-decoration: overline;
 }
 h4{
     text-align: center;
@@ -35,22 +36,25 @@ h2{
 
 .card{
     height: 50vh;
-    width: 30%;
-    margin:2rem 0;
+    width: 23%;
+    margin-right: 0.6rem;
+    margin-left: 0.6rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
     background-color: rgba(240, 240, 110, 0.3);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    box-shadow: 7px 10px rgba(252, 190, 18, 0.3);
+    box-shadow: 9px 10px rgba(252, 190, 18, 0.3);
     border-radius: 10px;
 }
 .card-img{
-    width: 19vw;
+    width: 15vw;
     height: 30vh;
     object-fit: cover;
 }
 .card-title{
-    font-size: 1.3rem;
+    font-size: 1rem;
     margin-top: 1rem;
 }
