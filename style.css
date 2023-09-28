@@ -24,6 +24,8 @@ h1{
     font-size: 3.5rem;
     text-align: center;
     text-decoration: overline;
+    animation-name: change-color;
+    animation-duration: 30s;
 }
 h4{
     text-align: center;
@@ -31,7 +33,9 @@ h4{
 }
 h2{
     text-align: center;
-    font-size: 1.3rem
+    font-size: 1.3rem;
+    animation-name: change-color;
+    animation-duration: 30s;
 }
 
 .card{
@@ -69,7 +73,6 @@ h2{
     }
 }
 .card:hover{
-    background-color: rgb(230, 165, 111);
     transform: scale(0.8);
     transition: 0.5s;
 }
@@ -81,7 +84,34 @@ h2:hover{
     transform: skew(40deg);
     transition: 0.5s
 }
-.card-img:hover{
-    transform: scale(0.3s);
-    transition: 0.3s
+h1:hover{
+    text-transform: uppercase;
+    transition: 0.2s
 }
+h4:hover{
+    background-color: rgb(216, 188, 242);
+    transition: background-color 0.3s
+}
+@keyframes change-color {
+    10% {
+        color:rgb(244, 171, 26)
+    }
+    25% {
+        color:rgb(185, 137, 41)
+    }
+    50% {
+        color: rgb(165, 106, 3);
+    }
+    75% {
+        color: rgb(95, 63, 0);
+    }
+    100% {
+        color: rgb(159, 116, 42);
+    }
+  }
+#lastrow:hover{
+    transform: scale(1.5);
+    transition: 2s
+}
+
+
