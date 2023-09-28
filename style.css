@@ -58,7 +58,30 @@ h2{
     font-size: 1.4rem;
     margin-top: 1rem;
 }
+@media screen and (max-width: 900px) {
+    .card {
+        width: 40%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .card {
+        width: 100%;
+    }
+}
 .card:hover{
     background-color: rgb(230, 165, 111);
-    transform: scale(1.5)
+    transform: scale(0.8);
+    transition: 0.5s;
+}
+.card-title:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+h2:hover{
+    transform: skew(40deg);
+    transition: 0.5s
+}
+.card-img:hover{
+    transform: scale(0.3s);
+    transition: 0.3s
 }
