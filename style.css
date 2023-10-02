@@ -39,7 +39,6 @@ h2{
 }
 
 .card{
-    height: 50vh;
     width: 23%;
     margin-right: 0.6rem;
     margin-left: 0.6rem;
@@ -62,25 +61,17 @@ h2{
     font-size: 1.4rem;
     margin-top: 1rem;
 }
-@media screen and (max-width: 1200px) {
-    .containers {
-        flex-direction: row;
-    }
+@media screen and (max-width: 1000px) {
     .card {
         width: 45%;
-        height: 35vh;
-    }
-    .card-img {
-        width: 75%;
     }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 750px) {
     .card {
         width: 100%;
-        margin-bottom: 1.5rem;
     }
     .card-img {
-        width: 95%
+        width: 55vw;
     }
     h1 {
         text-decoration: underline;
